@@ -1,5 +1,5 @@
 import random
-print("***********Welcome to the Number Guess Game!***********")
+print("***********🎯Welcome to the Number Guess Game!🎯***********")
 def choose_difficulty():
     print("\nSelect Difficulty Level:")
     print("1. Easy   (1–50, 10 attempts)")
@@ -37,20 +37,20 @@ def number_guessing_game():
             attempts_left -= 1
 
             if guess == secret_number:
-                print(f"\n Congrats! The number was {secret_number}.")
+                print(f"\n 🎉Congrats! The number was {secret_number}🎉")
                 print(f"You guessed it with {attempts_left} attempts remaining!")
                 return
 
             elif guess < secret_number:
                 print("📉 Your guess is Lower.")
             else:
-                print("Your guess is Higher.")
+                print("📉 Your guess is Higher.")
 
         except ValueError:
             print("Please enter a valid number.")
 
     print(f"\n Out of attempts! The number was {secret_number}.")
-    print("******* GAME OVER *******")
+    print("❌❌❌ GAME OVER ❌❌❌") 
 
 while True:
     number_guessing_game()
