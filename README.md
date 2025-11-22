@@ -38,7 +38,6 @@ python num_guess_game.py
 
 ## Screenshots
 
-> *Replace the placeholders below with your actual screenshots*
 
 ### **Output Example**
 
