@@ -22,8 +22,8 @@ This is perfect for beginners learning Python basics like loops, conditionals, a
 ### **1. Clone or Download the Project**
 
 ```bash
-git clone https://github.com/Nik-hil005/csfcp-nym-guess-game.git
-cd csfcp-nym-guess-game.git
+git clone https://github.com/Nik-hil005/num-guess-game.git
+cd num-guess-game.git
 ```
 
 ### **2. Run the Program**
